@@ -32,3 +32,18 @@ Minor slowdown in CI runner but build completed successfully within the timeout 
 
 ## 2026-08-20
 Clean run, no failures. PR opened and awaiting review.
+
+## 2026-08-22
+Migration step ran again; the new `finally`-block connection cleanup held and the pool closed cleanly. All tests passed, PR opened and merged.
+
+## 2026-08-23
+Routine run. No issues. Dependency bump applied without a retry needed.
+
+## 2026-08-24
+Build agent hit a single disk-space warning on the CI runner (68% usage); build still completed successfully. No other issues.
+
+## 2026-08-25
+Clean run, all green. PR opened for a documentation update and merged.
+
+## 2026-08-26
+Weekend run, routine. No issues to report.
